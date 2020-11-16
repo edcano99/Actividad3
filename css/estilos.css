@@ -1,0 +1,75 @@
+
+/* Diseñor CAbecera*/
+.cabecera{
+    background-color: rgb(157, 245, 216);
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+/*Diseño del menu principal*/
+.menu ul{
+    padding: 20px;
+
+}
+.opciones li a{
+    font-size: 25px;
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+}
+.menu ul a:hover{
+    background-color: springgreen;
+}
+.opciones li{
+    list-style: none;     
+    
+}
+/* Diseño del Slider*/
+.slider{
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400px;
+    animation: cambio 16s infinite alternate ;
+}
+
+.slider li{
+    width: 100%;
+    
+}
+/*Diseño del contenido*/
+.cuerpo{
+    background-color: rgb(142, 189, 120);
+    margin: 10px;
+    padding: 20px;
+    
+    
+}
+.contenido{
+    text-align: justify;
+    padding: 30px;
+    margin: 20px;
+}
+
+.pie{
+    background-color: lightslategray;
+    font-size: 20px;
+}
+
+}
+
+.redes{
+    overflow: hidden;
+    float: right;
+    padding: 30px;
+    margin: 50px;
+    
+}
